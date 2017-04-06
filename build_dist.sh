@@ -18,6 +18,7 @@ rm -r "dist/"$GAMENAME"_win"
 # For the mac app, weird stuff - Haven't actually tested this.
 #rm -r "dist/"$GAMENAME"_osx.zip"
 #cp -r "build_utils/love.app" "dist/$GAMENAME.app"
+# unzip love.app
 #cp "dist/$GAMENAME.love" "dist/$GAMENAME.app/Contents/Resources/"
 #cp "build/$MACPLIST" "dist/$GAMENAME.app/Contents/Resources/Info.plist"
 #zip -9 -r -y "dist/"$GAMENAME"_osx.zip" "dist/"$GAMENAME".app"
